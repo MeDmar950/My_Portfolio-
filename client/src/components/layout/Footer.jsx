@@ -30,13 +30,13 @@ const Footer = () => {
           <div className="lg:col-span-5 space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-[var(--accent)]/10 border border-[var(--accent)]/30 flex items-center justify-center text-[var(--accent-light)] font-mono-tech font-bold text-xs shadow-[0_0_8px_var(--accent-glow)]">
-                AC
+                <img src="/profile.jpg" alt="Profile" className="w-full h-full object-cover" />
               </div>
               <span className="font-bold text-md font-mono-tech text-[var(--text-primary)] tracking-wider">
                 {PERSONAL.name}
               </span>
             </div>
-            
+
             <p className="text-[var(--text-secondary)] text-xs font-light leading-relaxed max-w-sm">
               Creative Development & Systems Engineering. Design system integration complete. Immersive WebGL interfaces registered under active protocols.
             </p>
