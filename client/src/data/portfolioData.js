@@ -4,7 +4,7 @@ export const PERSONAL = {
   name: 'Ziad Ahmed',
   title: 'Computer Science Student & Web Developer',
   subtitle: 'I love building websites that look amazing and work perfectly.',
-  email: 'ziadahmed@example.com',
+  email: 'zezoasw2006@gmail.com',
   location: 'Aswan, Egypt',
   resume: '/resume.pdf',
   bio: `Hi, I'm Ziad! I'm a 21-year-old Computer Science student at AAST Aswan. I spend my time building things for the web, from eye-catching 3D animations to solid backend systems. I enjoy turning complex problems into simple, beautiful designs.`,
@@ -12,10 +12,10 @@ export const PERSONAL = {
 }
 
 export const SOCIALS = [
-  { label: 'GitHub', url: 'https://github.com', icon: 'Github' },
-  { label: 'LinkedIn', url: 'https://linkedin.com', icon: 'Linkedin' },
-  { label: 'Twitter', url: 'https://twitter.com', icon: 'Twitter' },
-  { label: 'Email', url: 'mailto:ziadahmed@example.com', icon: 'Mail' },
+  { label: 'GitHub', url: 'https://github.com/MeDmar950', icon: 'Github' },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/ziad-ahmed-44a4a539b/', icon: 'Linkedin' },
+  // { label: 'Twitter', url: 'https://twitter.com', icon: 'Twitter' },
+  { label: 'Email', url: 'mailto:zezoasw2006@gmail.com', icon: 'Mail' },
 ]
 
 export const STATS = [
