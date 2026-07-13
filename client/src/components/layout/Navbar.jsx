@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Moon, Sun, Download } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { NAV_LINKS, PERSONAL } from '@/data/portfolioData'
 import { cn } from '@/utils'
 
@@ -124,18 +124,8 @@ const Navbar = () => {
             })}
           </div>
 
-          {/* Actions */}
+          {/* Mobile Toggle */}
           <div className="flex items-center gap-2">
-            <a
-              href={PERSONAL.resume}
-              download
-              className="hidden sm:flex items-center gap-2 px-3 py-1.5 border border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent-light)] text-xs font-semibold hover:bg-[var(--accent)]/20 transition-all duration-300"
-            >
-              <Download size={12} />
-              DOWNLOAD_RES
-            </a>
-
-            {/* Mobile Toggle */}
             <button
               className="md:hidden p-2 border border-white/5 bg-white/[0.01] text-[var(--text-secondary)]"
               onClick={() => setMobileOpen((o) => !o)}
@@ -180,14 +170,6 @@ const Navbar = () => {
                 </motion.div>
               )
             })}
-            <a
-              href={PERSONAL.resume}
-              download
-              className="mt-8 flex items-center justify-center gap-2 py-4 border border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent-light)] font-bold text-sm"
-            >
-              <Download size={14} />
-              DOWNLOAD RESUME
-            </a>
           </motion.div>
         )}
       </AnimatePresence>
